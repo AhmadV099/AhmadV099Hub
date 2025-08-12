@@ -4,7 +4,7 @@ local player = Players.LocalPlayer
 
 -- GUI setup
 local gui = Instance.new("ScreenGui")
-gui.Name = "AhmadV099PremiumGUI"
+gui.Name = "AhmadVPremiumGUI"
 gui.ResetOnSpawn = false
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 gui.Parent = player:WaitForChild("PlayerGui")
@@ -259,4 +259,5 @@ frame.InputChanged:Connect(function(input)
                                    startPos.Y.Scale, startPos.Y.Offset + delta.Y)
     end
 end)
+
 
